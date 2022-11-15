@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson 16</title>
+</head>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="main-page__block block-page">
+				<div class="block-page__picture">
+					<img src="img/illustration.png" alt=""  class="image">
+				</div>
+				<div class="body-page__selection">
+					<h6 class="body-page__small-title">Any questions?</h6>
+					<h1 class="body-page__title">Why Createx?</h1>
+					<div class="body-page__list list-select">
+						<form action="https://jsonplaceholder.typicode.com/posts" class="block-page__form form form__line" method="POST">
+							<div class="form__line">
+								<label for="name-1" class="form__label">First Name*</label>
+								<input class="input" id="name-one" name="name" autocapitalize="off" type="text" placeholder="Your first name">
+							</div>
+							<div class="form__line">
+								<label for="name-2" class="form__label">Last  Name*</label>
+								<input class="input" id="name-two" name="name" autocapitalize="off" type="text" placeholder="Your last name">
+							</div>
+							<div class="form__line">
+								<label for="email-1" class="form__label">Email*</label>
+								<input class="input" id="email-one" name="email" autocapitalize="off" type="email" placeholder="Your working email">
+							</div>
+							<div class="form__line">
+								<label for="phone-number" class="form__label">Phone</label>
+								<input class="input" id="phone-number" name="phone" autocapitalize="off" type="tel" placeholder="Your phone number">
+							</div>
+							<div class="form__line">
+								<label for="Message" class="form__label">Message*</label>
+								<textarea class="textarea" autocomplete="off" name="Message" placeholder="Your message" id="Message"></textarea>
+							</div>
+							<div class="form__line line">
+								<div class="line__box">
+							<div class="line__form">
+								<input  id="home-1" checked class="form__input-lime form__input-line--chk" required  name="agree" type="checkbox">
+								<label class="form__label-main" for="home-one">I agree to receive communications from Createx Online School</label>
+							</div>
+							<div class="line__form--aaction">
+								<div class="body-page__button"><span> Send message</span></div>
+							</div>
+						</div>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="page">
+			<div class="page__holder holder-page">
+				<div class="holder-page__tille">
+					<h2 class="title__head">Online Event Registration</h2>
+				</div>
+				<div class="holder-page__form form">
+					<div class="form__meta meta" method="POST" action="https://jsonplaceholder.typicode.com/posts">
+						<div class="meta__line">
+							<label for="name-1" class="meta__label">First Name</label>
+							<input  class="form__input"  name="name" autocapitalize="off" type="text" placeholder="Your first name">
+						</div>
+						<div class="meta__line">
+							<label for="phone-number" class="meta__label">Cell Phone</label>
+							<input  class="form__input"  name="phone" autocapitalize="off" type="tel" placeholder="Your phone number">
+						</div>
+						<div class="meta__line">
+							<label for="Message" class="meta__label">Company Description</label>
+							<textarea autocomplete="off" name="Message" placeholder="Your message" ></textarea>
+						</div>
+						<div class="meta__line">
+							<label for="Message" class="meta__label">your favorite color</label>
+							<input class="form__input" autocomplete="off" name="color" value="#A4E2AA" type="color">
+						</div>
+						<div class="meta__line">
+							<label for="Message" class="meta__label">your floor number</label>
+							<input class="form__input" autocomplete="off" placeholder="floor" name="digi" type="number">
+						</div>
+						<div class="meta__line">
+							<label for="Message" class="meta__label">your birth day</label>
+							<input class="form__input" autocomplete="off" name="date" type="date">
+						</div>
+						<div class="meta__line line">
+							<div class="meta__label">Sponsorship Level</div>
+							<div class="line__select">
+								<input id="joice-01" class="line__select select__inpu" required autocomplete="off" name="car" type="checkbox">
+								<label class="form__label" for="car-01">Gold</label>
+							</div>
+							<div class="line__select">
+								<input id="joice-02" class="line__select select__inpu" required autocomplete="off" name="car" type="checkbox">
+								<label class="form__label" for="car-01">Diamond</label>
+							</div>
+							<div class="line__select">
+								<input id="joice-03" class="line__select select__input" required autocomplete="off" name="car" type="checkbox">
+								<label class="form__label" for="car-01">Platinum</label>
+							</div>
+						</div>
+						<div class="meta__line">
+							<label for="Message" class="meta__label">Enter your password</label>
+							<input class="form__input" autocomplete="off" placeholder="password" name="pass" type="password">
+						</div>
+						<div class="meta__line line">
+							<div class="meta__label">Do you like this Registration?</div>
+							<div class="line__radio radio">
+								<input checked class="radio__input radio__input--radio" id="answer-01" required autocomplete="off" value="cat" name="pet" type="radio">
+								<label class="radio__label" for="answer-01">No</label>
+							</div>
+							<div class="line__radio radio">
+								<input class="radio__input radio__input--radio" id="answer-02" required autocomplete="off" name="pet" value="dog" type="radio">
+								<label class="radio__label" for="answer-02">Yes</label>
+							</div>
+						</div>
+					</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
